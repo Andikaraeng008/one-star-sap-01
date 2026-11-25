@@ -1,6 +1,6 @@
 import os
 
-ENTRY = "One star. My owner waters me on a schedule set by an app that also reminds him to drink water, and somehow I am the only one of us still thirsty."
+ENTRY = "One star. He bought me for 'low maintenance', then watered me with leftover coffee and blamed me for dying loudly."
 assert 1 <= len(ENTRY) <= 279, len(ENTRY)
 
 out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
